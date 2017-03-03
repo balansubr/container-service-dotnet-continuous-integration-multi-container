@@ -30,6 +30,7 @@ namespace ServiceB
 
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddApplicationInsightsTelemetry(this.Configuration);
         }
 
